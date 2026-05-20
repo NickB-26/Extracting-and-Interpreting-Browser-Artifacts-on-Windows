@@ -170,9 +170,8 @@ A few things I picked up along the way that I didn't expect at the start: the da
 
 1. **Run `WebBrowserPassView.exe`** - the tool (exe) opens straight into its main view and starts scanning installed browsers automatically.
 
-
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b49e9a36-0d34-47c5-86d9-ec93b3324b19" alt="WebBrowserPassView main window showing two recovered Edge passwords" width="700"><br>
+  <img src="https://github.com/user-attachments/assets/851231f1-f74b-4a0b-9774-c26a0458afa8" alt="WebBrowserPassView main window showing two recovered Edge passwords" width="700"><br>
   <em>Figure 3: WebBrowserPassView with two saved Edge credentials recovered</em>
 </p>
 
