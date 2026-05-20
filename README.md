@@ -41,7 +41,7 @@ A few things I picked up along the way that I didn't expect at the start: the da
 
 ### Installing BrowsingHistoryView
 
-1. Downloaded the 64-bit zip from the [NirSoft website](https://www.nirsoft.net/utils/browsing_history_view.html). Portable — no installer.
+1. Download the 64-bit zip from the [NirSoft website](https://www.nirsoft.net/utils/browsing_history_view.html). Portable — no installer.
 
 
 
@@ -50,11 +50,11 @@ A few things I picked up along the way that I didn't expect at the start: the da
   <em>Figure: Downloading BrowsingHistoryView (64-bit) from NirSoft</em>
 </p>
 
-2. Extracted the contents to `Desktop\Project 4`. Easy to find.
+2. Extract the contents to `Desktop\Project 4`. Easy to find.
 
 ### Installing WebBrowserPassView
 
-1. Downloaded the zip from the [NirSoft website](https://www.nirsoft.net/utils/web_browser_password.html). No installer — it's a portable tool(exe).
+1. Download the zip from the [NirSoft website](https://www.nirsoft.net/utils/web_browser_password.html). No installer — it's a portable tool(exe).
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f13387d5-0d27-4f0a-a56a-a88c48b9b2e8" alt="NirSoft WebBrowserPassView download page with webbrowserpassview.zip in the Edge downloads pane" width="700"><br>
@@ -63,14 +63,14 @@ A few things I picked up along the way that I didn't expect at the start: the da
 
 
 
-2. Extracted the contents to `Desktop\Project 4`. The folder holds the `.exe` and a couple of helper files.
+2. Extract the contents to `Desktop\Project 4`. The folder holds the `.exe` and a couple of helper files.
 
 > 💡 **The zip is password-protected.** NirSoft puts a password on the archive to stop browsers and AV scanners from inspecting the contents on download (the tool would otherwise get quarantined even before the download is completed). The password is shown directly on the download page (`wbpv28821@`). Worth a heads-up because Windows Explorer's built-in zip handler doesn't always make the password prompt obvious; 7-Zip is more reliable here.
 
 
 ### Installing ChromeCacheView
 
-1. Downloaded the zip from the [NirSoft website](https://www.nirsoft.net/utils/chrome_cache_view.html). Portable, no installer — same as the other NirSoft tools.
+1. Download the zip from the [NirSoft website](https://www.nirsoft.net/utils/chrome_cache_view.html). Portable, no installer — same as the other NirSoft tools.
 
 
 <p align="center">
@@ -78,12 +78,12 @@ A few things I picked up along the way that I didn't expect at the start: the da
   <em>Figure: Downloading ChromeCacheView from NirSoft</em>
 </p>
 
-2. Extracted to `Desktop\Project 4` alongside the other NirSoft tools.
+2. Extract to `Desktop\Project 4` alongside the other NirSoft tools.
 
 
 ### Installing DB Browser for SQLite
 
-1. Downloaded the 64-bit standard installer (`DB.Browser.for.SQLite-v3.13.1-win64.msi`, latest release at the time) from [sqlitebrowser.org/dl](https://sqlitebrowser.org/dl/). The page also offers portable `.zip` builds and 32-bit / ARM64 variants if you need them.
+1. Download the 64-bit standard installer (`DB.Browser.for.SQLite-v3.13.1-win64.msi`, latest release at the time) from [sqlitebrowser.org/dl](https://sqlitebrowser.org/dl/). The page also offers portable `.zip` builds and 32-bit / ARM64 variants if you need them.
 
 
 <p align="center">
@@ -91,7 +91,7 @@ A few things I picked up along the way that I didn't expect at the start: the da
   <em>Figure: Downloading DB Browser for SQLite 3.13.1 (64-bit MSI)</em>
 </p>
 
-2. Ran the MSI and accepted the defaults settings.
+2. Run the MSI and accepted the defaults settings.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d432876d-abcb-4dcf-ab9f-453cfd6becda" alt="DB Browser for SQLite Setup Wizard completion screen" width="700"><br>
@@ -114,9 +114,9 @@ A few things I picked up along the way that I didn't expect at the start: the da
 
 **Steps:**
 
-1. **Ran `BrowsingHistoryView.exe`** from `Desktop\Project 4`. The tool opens straight into an **Advanced Options** dialog rather than a main window — you choose the browsers, profile source, and date range first, then it queries everything in one pass.
+1. **Run `BrowsingHistoryView.exe`** from `Desktop\Project 4`. The tool opens straight into an **Advanced Options** dialog rather than a main window — you choose the browsers, profile source, and date range first, then it queries everything in one pass.
 
-2. **Configured the filters.**
+2. **Configure the filters.**
    - **Filter by visit date/time:** set to *Load history items from the last 10 days* (12/05/2026 → 19/05/2026) to focus on activity around the project window rather than dragging in every URL ever visited on this VM.
    - **Web Browsers:** ticked both `Internet Explorer 10/11 + Edge` and `Edge (Chromium-based)`.
    - **Load history from:** *Load history from the current running system (All users)*. The "All users" variant tries every profile on the box; sensible default unless you only want one account's data.
@@ -126,9 +126,9 @@ A few things I picked up along the way that I didn't expect at the start: the da
   <em>Figure 1: BrowsingHistoryView's Advanced Options dialog — browser selection, 10-day window, all-users profile source</em>
 </p>
 
-3. **Clicked OK.** The tool read Edge's SQLite databases in the background and rendered a table showing the accesses resources.
+3. **Click OK.** The tool read Edge's SQLite databases in the background and rendered a table showing the accesses resources.
 
-4. **Reviewed the merged history.** **348 items** in the 10-day window.
+4. **Review the merged history.** **348 items** in the 10-day window.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/078a4596-947c-4765-91fb-f396b597494a" alt="BrowsingHistoryView results showing 348 history items including Bing searches for python and github volatility, Python.org pages, Volatility Foundation, GitHub repos, and several file:// entries to local screenshots" width="700"><br>
@@ -168,7 +168,7 @@ A few things I picked up along the way that I didn't expect at the start: the da
 
 **Steps:**
 
-1. **Ran `WebBrowserPassView.exe`** - the tool (exe) opens straight into its main view and starts scanning installed browsers automatically.
+1. **Run `WebBrowserPassView.exe`** - the tool (exe) opens straight into its main view and starts scanning installed browsers automatically.
 
 
 <p align="center">
@@ -176,7 +176,7 @@ A few things I picked up along the way that I didn't expect at the start: the da
   <em>Figure 3: WebBrowserPassView with two saved Edge credentials recovered</em>
 </p>
 
-2. **Reviewed the recovered credentials.** Two entries came back, both from `Chromium-Based Edge`:
+2. **Review the recovered credentials.** Two entries came back, both from `Chromium-Based Edge`:
    - `https://account.live.com/password/change` — Microsoft account, password change page, with a `RetypePassword` field (created 08/05/2026 at 00:19:23)
    - `https://github.com/login` — GitHub login (created 25/04/2026 at 15:16:20)
 
@@ -211,7 +211,7 @@ A few things I picked up along the way that I didn't expect at the start: the da
 
 3. **Open the copy in DB Browser for SQLite.** One small gotcha — the `Cookies` file has no extension, so the file dialog hides it by default. Switching the file type filter to **All files (\*)** at the bottom right of the open dialog made it appear.
 
-4. **Browsed the `cookies` table.** The Default Edge profile on this VM had **287 cookies**.
+4. **Browse the `cookies` table.** The Default Edge profile on this VM had **287 cookies**.
 
 
 <p align="center">
@@ -219,7 +219,7 @@ A few things I picked up along the way that I didn't expect at the start: the da
   <em>Figure 4: Edge's Cookies database loaded in DB Browser — 287 rows, with encrypted values stored as BLOBs</em>
 </p>
 
-5. **Reviewed what's there.** A few things stood out from the first 16 rows:
+5. **Review what's there.** A few things stood out from the first 16 rows:
    - Hosts split between Microsoft resources (`.bing.com`, `.msn.com`, `.microsoft.com`, etc ) and developer tooling (`.github.com`, `.gitkraken.com`).
    - Several `.gitkraken.com` cookies named `_ga`, `_gcl_au`, `_uetvid` — Google Analytics, Google Ads conversion linker, and Microsoft UET (Universal Event Tracking) tags. Standard ad/analytics tracking, set even on a developer-focused site.
    - `_EDGE_V` appears under both `.bing.com` and `.msn.com` — Edge's own browser-identifying cookie.
@@ -272,9 +272,8 @@ A few things I picked up along the way that I didn't expect at the start: the da
   <em>Figure 6: ChromeCacheView with Edge's cache loaded — 3,946 items, sorted by filename</em>
 </p>
 
-4. **Reviewed what's there.** A few patterns from the visible rows:
+4. **Review what's there.** A few patterns from the visible rows:
    - **GitHub Copilot Chat traffic** — multiple `application/json` responses from `github.com/github-copilot/chat/implicit-context/NickB-...` across 19/05/2026, file sizes 213–346 bytes. Each one is a request the Copilot extension made while the user worked in a repo. The cache effectively reconstructs the user's Copilot interaction timeline minute by minute.
-   - **GraphQL calls** to `github.com/_graphql` — also `application/json`, larger payloads (564 and 730 bytes), both at 11:44:44 on 19/05/2026. GitHub uses GraphQL for most of its UI, so these correspond to the user navigating the site.
    - **Bing search response fragments** — three `text/html` entries from `bing.com/recoRS?&IG=...` with different IG (impression GUID) values, sizes ranging from 69 to 878 bytes, spread across 14/05 and 19/05. Each unique IG is a distinct search session.
    - **Edge autofill service calls** — several `application/json` entries from `edge.microsoft.com/autofillservice/core/page/...`. These are Edge phoning home with autofill metadata as the user filled forms; sizes range from 20 bytes to over 9 KB.
    - **Google async tracking** — `google.com/async/hpba?vet=10ahUKEwiJlefc5cW...` came up in the cache despite no obvious Google site visit. Edge embeds Google services in its new tab page and Bing search results, so this gets cached as a side effect.
@@ -285,7 +284,7 @@ A few things I picked up along the way that I didn't expect at the start: the da
 
 > 💡 **The cache shows what the user *actually loaded*, not just what they navigated to.** History tells you the user visited `github.com`. The cache tells you the page made a GraphQL call to `_graphql` at 11:44:44 returning 730 bytes — that's a much more specific record.
 
-> 💡 **No browser-closing step needed here.** Unlike `Cookies` and `History`, ChromeCacheView reads the cache index without needing exclusive access. Good to know — saves a step compared to the SQLite-based exercises.
+> 💡 **No browser-closing step needed here.** Unlike `Cookies` and `History`, ChromeCacheView reads the cache index without needing exclusive access. Saves a step compared to the SQLite-based exercises.
 
 > 💡 **"ChromeCacheView" is a misleading name.** It reads any Chromium browser's cache since all use the same format. You just have to override the default folder when working with anything other than Chrome.
 
@@ -324,7 +323,7 @@ A few things I picked up along the way that I didn't expect at the start: the da
   <em>Figure 8: Scrolling through the same view — file names visible (ChromeSetup.exe, LogParser.msi, WFA.zip, python-3.14.4, etc.)</em>
 </p>
 
-5. **Convert the timestamps with SQL.** Switched to the **Execute SQL** tab and ran:
+5. **Convert the timestamps with SQL.** Switched to the **Execute SQL** tab and run:
    ```sql
    SELECT
      datetime((start_time / 1000000) - 11644473600, 'unixepoch') AS start_readable,
@@ -355,52 +354,50 @@ A few things I picked up along the way that I didn't expect at the start: the da
 
    The download history covers **10–19 May 2026** with 22 entries. Key patterns:
 
-   - **The tooling for this project** — `ChromeSetup.exe` from `google.com/intl/en_uk/` (11.7 MB, 16:42 on 19 May), `WFA.zip` from `mitec.cz/wfa.html` (2.1 MB, 13:57 on 12 May), `LogParser.msi`, the NirSoft tools from `nirsoft.net/utils/`, DB Browser from `sqlitebrowser.org/dl/`, FTK Imager from `go.exterro.com`. Every tool I'd installed for the current and previous projects shows up here with a precise source URL.
-   - **Larger data downloads** — `volatility3-...` (1.58 MB, GitHub), `MemLabs-Lab1.7z` (~158 MB from `mega.nz/file/...`), `Git-2.54.0` (~63 MB), `windows.zip` (~840 MB) and `python-3.14.4` builds (~30 MB each).
+   - **The tooling for this project** — `ChromeSetup.exe` from `google.com/intl/en_uk/` (11.7 MB, 16:42 on 19 May), `WFA.zip` from `mitec.cz/wfa.html` (2.1 MB, 13:57 on 12 May), `LogParser.msi`, the NirSoft tools from `nirsoft.net/utils/`, DB Browser from `sqlitebrowser.org/dl/`, FTK Imager from `go.exterro.com`. Every tool I'd installed for the current and previous projects shows up here with a source URL.
+   - **Larger data downloads** — `volatility3-...` , `MemLabs-Lab1.7z` , `Git-2.54.0` , `windows.zip`  and `python-3.14.4` builds.
    - **A duplicate WFA download** — `WFA.zip` followed by `WFA (1).zip` at the same byte count from the same URL. Windows adds the `(1)` suffix when a file with the same name already exists; useful evidence that the user downloaded the same archive twice rather than e.g. moved or renamed it. Possibly downloaded twice by accident, or once to test and once to keep.
-   - **The `state` column is `1` across every row** — `1` means the download completed successfully. No interrupted or cancelled downloads in the set. The full mapping is: `0` = in progress, `1` = complete, `2` = cancelled, `3` = interrupted, `4` = interrupted (resumable).
-   - **`danger_type` is `4` on every row** — Edge's classification for "user validated the dangerous download" (i.e. clicked through any SmartScreen warning). Not surprising for things like `.exe` and `.msi` installers, which always trigger that prompt.
-   - **The `tab_url` column tells you the page the user was on when they clicked the link**, which isn't always the same as where the file came from. For most rows here it's just the download mirror page (e.g. `https://www.nirsoft.net/utils/...`), but in a real investigation that distinction matters — a malicious download might originate from a CDN URL while the user thought they were on a legitimate site.
-
+   - **The `state` column is `1` across every row** — `1` means the download completed successfully. No interrupted or cancelled downloads in the set. The codes are: `0` = in progress, `1` = complete, `2` = cancelled, `3` = interrupted, `4` = interrupted (resumable).
+   - **`danger_type` is `4` on every row** — Edge's classification for "user validated the dangerous download" (i.e. clicked through any SmartScreen warning). Not surprising for things like `.exe` and `.msi` installers, which almost always trigger the prompt.
+   - **The `tab_url` column tells us what page the user was on when they clicked the link**, which isn't always the same as where the file came from. For most rows here it's just the download page (e.g. `https://www.nirsoft.net/utils/...`).
 
 
 > 💡 **Cross-reference with the MFT (if available).** The `end_time` from this table should line up closely with the `$STANDARD_INFORMATION` creation time of the file on disk. A big mismatch is interesting — either timestomping, or the file was moved/renamed after download. The `WFA.zip` / `WFA (1).zip` pair would be a good candidate to verify against an MFT timeline.
 
-> 💡 **`state` and `danger_type` are useful filters during triage.** `state = 1 AND danger_type != 0` gives you completed downloads the browser flagged as potentially dangerous at some point. On a real incident host that's often where you find the initial payload — the user clicked through a SmartScreen warning to keep a file they shouldn't have.
+> 💡 **`state` and `danger_type` are useful filters during triage.** `state = 1 AND danger_type != 0` gives us the completed downloads the browser flagged as potentially dangerous at some point. 
 
-> 💡 **The `History` DB has 24 tables for a reason.** `downloads` is one piece; `urls` + `visits` together give you the URL history; `keyword_search_terms` and `edge_keyword_search_terms_source` capture searches; `downloads_url_chains` records the full redirect chain that led to each download (useful when phishing). Worth knowing what else lives here before closing the file.
+> 💡 **The `History` DB has 24 columns.** `urls` + `visits` together give you the URL history; `keyword_search_terms` and `edge_keyword_search_terms_source` capture searches; `downloads_url_chains` records the full redirect chain that led to each download (useful when phishing). Worth seing what else lives here before closing the file.
 
 ---
 
 ## 🎓 Lessons Learned
 
 ### Technical insights
-- **Browsers store everything in SQLite, and that's the unlock.** Once I realised `History`, `Cookies`, and `Login Data` are just SQLite files I could open in DB Browser, the project went from "use these three GUI tools" to "you can query any field with SQL if the tool's view doesn't show what you want." The dedicated tools (BrowsingHistoryView, WebBrowserPassView, ChromeCacheView) are convenient wrappers; DB Browser is what you reach for when the wrapper doesn't expose what you need.
-- **Chromium uses Webkit timestamps everywhere — microseconds since 1601.** Caught me out the first time in the cookies database (`creation_utc` like `13421236984570297`) and again in the downloads table (`start_time`). Conversion is `datetime((value / 1000000) - 11644473600, 'unixepoch')` and it's worth memorising because every Chromium-derived database uses it.
-- **Cookie values are encrypted, metadata isn't.** Every row in Edge's `cookies` table showed `BLOB` in the `encrypted_value` column and an empty `value` column. That's modern Chromium working as intended — DPAPI-protected so a stolen DB on its own doesn't leak session tokens. The plaintext `host_key`, `name`, `creation_utc`, and `expires_utc` are still plenty for most investigative questions ("which sites set cookies, when, and what were they called").
+- **Browsers store everything in SQLite, and that's the unlock.** Once I realised `History`, `Cookies`, and `Login Data` are just SQLite files I could open in DB Browser, the project went from "use these three GUI tools" to "you can query any field with SQL if the tool's view doesn't show what you want." The dedicated tools (BrowsingHistoryView, WebBrowserPassView, ChromeCacheView) are convenient wrappers; DB Browser is what you reach for when the wrapper doesn't expose what you need but.... you need to learn some SQL.
+- **Chromium uses Webkit timestamps everywhere** Caught me out the first time in the cookies database (`creation_utc` like `13421236984570297`) and again in the downloads table (`start_time`). Conversion is `datetime((value / 1000000) - 11644473600, 'unixepoch')` and it's worth memorising because every Chromium-derived database uses it. I used this website for the conversions: https://www.epochconverter.com/webkit. There are other methods but wanted to keep it simple.
+- **Cookie values are encrypted, metadata isn't.** Every row in Edge's `cookies` table showed `BLOB` in the `encrypted_value` column and an empty `value` column. A stolen DB on its own doesn't leak session tokens. The plaintext `host_key`, `name`, `creation_utc`, and `expires_utc` are still plenty for most investigative questions ("which sites set cookies, when, and what were they called").
 - **The cache shows what was *loaded*, not what was *navigated to*.** Two different data points. History told me the user visited `github.com`; the cache showed me the specific `_graphql` POST that page made at 11:44:44 returning 730 bytes. On a SaaS-heavy machine the cache is often a finer-grained record of user activity than the URL history.
-- **Tool names lie.** ChromeCacheView reads any Chromium browser's cache including Edge — it just defaults to Chrome's path and you have to override with `F9`. WebBrowserPassView still works on current Edge despite being last updated in 2021 and despite Chromium adding app-bound encryption in 2024 (it pulled back both saved logins on this machine).
-- **The `History` SQLite database holds 24 tables, not just history.** Downloads, search terms, redirect chains, favicons, visit segments, content annotations. Worth scrolling the schema panel before closing the file — there's a lot more in there than the name suggests.
+- **Tool names lie.** ChromeCacheView reads any Chromium browser's cache including Edge — it just defaults to Chrome's path and you have to override it. WebBrowserPassView still works on current Edge despite not being updated in a few years and despite Chromium adding app-bound encryption (it pulled back both saved logins on this machine).
+- **The `History` SQLite database holds 24 tables, not just history.** Downloads, search terms, redirect chains, favicons, visit segments, content annotations. Worth scrolling the schema panel before closing the file. There's a lot more in there than the name suggests.
 
 ### SOC analyst mindset
-- **Search → click → site is a cause-and-effect chain you can read off the history table.** The Bing/python.org sequence in Exercise 1 took place over a 3-minute window and could be reconstructed from three rows. On a real investigation, that's how you'd prove a user found a malicious page (they searched for it and clicked through a result, not someone redirected them).
+- **Search → click → site is a cause-and-effect chain you can read off the history table.** The Bing/python.org sequence in Exercise 1 took place over a 3-minute window and could be reconstructed from three rows. Useful info on a real investigation to prove a user found a malicious page (they searched for it and clicked through a result, not someone redirected them).
 - **Visit counts matter more than first visits.** A URL visited once is a lookup; a URL visited four times is something the user came back to. Sorting by `visit_count` rather than `visit_time` surfaces what the user actually cared about.
 - **Browser artifacts complement file system artifacts, they don't replace them.** The download history shows where files came from and when they arrived. The MFT shows whether they're still on disk and what their NTFS timestamps look like now. Cross-referencing the two catches anything that's been moved, renamed, or tampered with post-download.
-- **Absence is information.** WebBrowserPassView returned only two entries because only two passwords were saved. On an unfamiliar machine that's a useful baseline — a heavy browser user with no saved passwords has either disabled the feature deliberately, cleared the data, or is using a third-party password manager. Each of those tells you something.
+- **Absence is information.** WebBrowserPassView returned only two entries because only two passwords were saved. On an unfamiliar machine that's a useful baseline — a heavy browser user with no saved passwords has either disabled the feature deliberately, cleared the data, or is using a third-party password manager. Again, useful to know.
 - **`file:///` history entries are easy to miss and worth a second look.** Edge logs them in `urls` like any other navigation. They reveal which local folders the user opened in their browser, often hours before or after the rest of their activity, and they don't show up in any "websites visited" summary.
 
-### Challenges & how I overcame them
-- **Edge's profile was nowhere obvious at first.** I checked `AppData\Local\Microsoft\` expecting to see an `Edge` folder; the directory listing in File Explorer showed `GameDVR`, `Windows`, and `WindowsApps` but seemingly no `Edge`. Turned out the folder was there all along — just not visible in the truncated/scrolled view I had open. The fix was to paste the full path directly into File Explorer's address bar. **Lesson:** when a folder you expect to exist isn't visible, don't trust the directory listing — paste the path. The fastest authoritative answer comes from inside the browser itself: `edge://version` shows the exact Profile Path.
-- **The Cookies file moved.** Older guides put it directly at `Default\Cookies`; modern Chromium puts it under `Default\Network\Cookies`. Cost me a couple of minutes the first time I looked for it. Same applies to anyone following an older walkthrough — check both locations.
-- **Edge holds files open while it's running.** A simple Explorer copy of `Cookies` or `History` refuses with "in use" — and just closing the Edge windows isn't enough, because background `msedge.exe` processes linger. Task Manager → end them all → copy works. ChromeCacheView didn't have this problem; presumably it opens the cache index read-only.
+### Challenges & how to overcome them
+- **Generate test data deliberately before starting analysis.** This VM had a useful mix of real activity already — saved passwords, downloads, searches, browsing — but on a fresh machine You'd want to deliberately visit a handful of sites, save a couple of test credentials, and download some files first, so the browser has content worth examining. 
+- **Edge's profile was pretty difficult to find.** I checked `AppData\Local\Microsoft\` expecting to see an `Edge` folder; the directory listing in File Explorer showed `GameDVR`, `Windows`, and `WindowsApps` but seemingly no `Edge`. Turned out the folder was there all along — just not visible in the truncated/scrolled view I had open. The fix was to paste the full path directly into File Explorer's address bar. **Lesson:** when a folder you expect to exist isn't visible, don't trust the directory listing — paste the path.
+- **The Cookies file moved.** Older guides put it directly at `Default\Cookies`; modern Chromium puts it under `Default\Network\Cookies`. Cost me a couple of minutes the first time I looked for it. 
+- **Edge holds files open while it's running.** A simple Explorer copy of `Cookies` or `History` refuses with "in use" — and just closing the Edge windows isn't enough, because background `msedge.exe` processes linger. Task Manager → end them all → copy works. ChromeCacheView opens the cache index read-only.
 - **Defender flagged WebBrowserPassView.** Expected (it's detected as `HackTool:Win32/PassView`) and not a false positive in the malware sense. I dismissed the warning to let the tool run, which is acceptable in a lab VM but obviously not how you'd handle it on a production host.
 - **The `Cookies` file has no extension.** DB Browser's "Open Database" dialog filters by extension, so the file was invisible until I switched the file type filter at the bottom right of the dialog to **All files (\*)**. Small thing but easy to miss.
 
 ### What I would do differently next time
-- **Always convert Webkit timestamps to readable form on first open** rather than scrolling through 17-digit numbers and squinting at them. The four-line `SELECT` with `datetime((... / 1000000) - 11644473600, 'unixepoch')` should be saved as a snippet and pasted into the Execute SQL tab as the first thing I do with any Chromium database.
-- **Generate test data deliberately before starting analysis.** This VM had a useful mix of real activity already — saved passwords, downloads, searches, browsing — but on a fresh machine I'd want to deliberately visit a handful of sites, save a couple of test credentials, and download some files first, so the artifacts have content worth examining. Easier to verify a query works when you know what answer it should give.
-- **Look at the `History` schema before diving into one table.** I started with `downloads` because that was the goal of Exercise 5, but seeing 24 tables in the DB Schema pane made me realise how much I'd been missing in earlier exercises. `urls + visits` together reconstruct a richer timeline than `urls` alone; `downloads_url_chains` records the full redirect chain that delivered each file. Worth a tour of the schema before closing the file.
-- **Try a forensic image rather than the live system.** Everything in this project was done against the live Edge profile on the running VM. Closer to real practice would be to image the disk first (FTK Imager, same as the previous project) and analyse the artifacts out of the image, so the workflow stays valid against a target you can't afford to change.
+- **Convert Webkit timestamps to readable form on first open** rather than scrolling through 17-digit numbers. I used a website at first but I could only convert 1 no at a time. Then found the snippet. Pasted into the Execute SQL and run. Almost like magic.
+- **Try a forensic image rather than the live system.** Everything in this project was done against the live Edge profile on the running VM. Closer to real practice would be to image the disk first and analyse the artifacts out of the image, so the workflow stays valid against a target you can't afford to change. I have another project related to that at https://github.com/NickB-26/Forensic-Analysis-of-Windows-File-Systems-and-Artifacts
 
 ---
 
