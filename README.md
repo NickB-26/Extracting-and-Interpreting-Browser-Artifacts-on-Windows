@@ -397,15 +397,13 @@ A few things I picked up along the way that I didn't expect at the start: the da
 
 ### What I would do differently next time
 - **Convert Webkit timestamps to readable form on first open** rather than scrolling through 17-digit numbers. I used a website at first but I could only convert 1 no at a time. Then found the snippet. Pasted into the Execute SQL and run. Almost like magic.
-- **Try a forensic image rather than the live system.** Everything in this project was done against the live Edge profile on the running VM. Closer to real practice would be to image the disk first and analyse the artifacts out of the image, so the workflow stays valid against a target you can't afford to change. I have another project related to that at https://github.com/NickB-26/Forensic-Analysis-of-Windows-File-Systems-and-Artifacts
+- **Try a forensic image rather than the live system.** Everything in this project was done against the live Edge profile on the running VM. Closer to real practice would be to image the disk first and analyse the artifacts out of the image, so the workflow stays valid against a target you can't afford to change. I have another project related to that, plase see bellow.
 
 ---
 
 ## 🔗 Related Projects
 
-- 🛡️ [Forensic Analysis of Windows File Systems and Artifacts](#) — companion project parsing MFT, Prefetch, and Shellbags. Browser artifacts and file system artifacts answer different questions about the same machine; together they give you the full picture.
-- 🛡️ [Investigating Windows Event Logs for Security Incidents](#) — earlier project on the authentication side of the same host.
-
+- 🛡️ [Forensic Analysis of Windows File Systems and Artifacts](https://github.com/NickB-26/Forensic-Analysis-of-Windows-File-Systems-and-Artifacts) — companion project parsing MFT, Prefetch, and Shellbags. Browser artifacts and file system artifacts answer different questions about the same machine; together they give you the full picture.
 ---
 
 ## 📚 References
